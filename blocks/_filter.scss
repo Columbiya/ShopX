@@ -1,0 +1,42 @@
+.filter {
+    margin-top: 5rem;
+}
+
+.filter__nav {
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 2.7rem;
+
+    border-bottom: 1px solid #f1f1f1;
+    a {
+        color: #45505e;
+        text-transform: uppercase;
+        font-size: 1.1rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        letter-spacing: 2px;
+        text-decoration: none;
+
+        transition: color .2s linear;
+
+        &:not(:first-child) {
+            margin-left: 2.5rem;
+        }
+
+        &:hover {
+            color: #b5d9cc;
+        }
+
+        @media (max-width: 556px) {
+            font-size: .8rem;
+        }
+
+        @media (max-width: 453px) {
+            &:not(:first-child) {
+                margin-left: 1.5rem;
+            }
+        }
+    }
+}
+

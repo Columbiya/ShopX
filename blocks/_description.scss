@@ -1,0 +1,71 @@
+.description {
+    background-color: #1d1e24;
+}
+
+.container__description {
+    width: 100%;
+    max-width: 1745px;
+    margin: 0 auto;
+}
+
+.description__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.description__item {
+    padding: 5rem 0;
+    text-align: center;
+
+    @media (max-width: 768px) {
+        margin: 0 1rem;
+    }
+
+    @media (max-width: 600px) {
+        flex-basis: 50%;
+        margin: 0;
+    }
+}
+
+.description__header {
+    margin-bottom: 3rem;
+}
+
+.description__footer {
+    h3 {
+        font-size: 1.8rem;
+        font-weight: 300;
+        letter-spacing: 2px;
+        font-family: 'Titillium Web', sans-serif;
+        text-transform: uppercase;
+        color: #fff;
+
+        margin-bottom: 1rem;
+
+        @media (max-width: 768px) {
+            font-size: 1.3rem;
+        }
+    }
+
+    p {
+        font-size: 1.4rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        color: #767676;
+
+        @media (max-width: 768px) {
+            font-size: .8rem;
+            
+        }
+
+        @media (max-width: 600px) {
+            font-size: 1rem;
+        }
+    }
+}
+
+.description__header-car {
+    margin-bottom: 1rem;
+}   

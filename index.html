@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Roboto:100,400|Titillium+Web:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="libs/fontawesome/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <form action="/" class="header__form">
+                    <input class = "header__form-input" placeholder = "search" type="text">
+                </form>
+
+                <div class="header__logo">
+                    <img src="images/header/logo.png" alt="logo">
+                </div>
+
+                <div class="header__nav">
+                    <nav class="header__nav-link hiddenAdaptive">
+                        <a href="#"><i class="fas fa-user"></i></a>
+                    </nav>
+                    <nav class="header__nav-link hiddenAdaptive">
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                    </nav>
+                    <nav class="header__nav-link hiddenAdaptive">
+                        <a href="#"><i class="fas fa-bars"></i></a>
+                    </nav>
+                    <nav class="header__nav-link">
+                        <a class = "icon__menu__appears default__nav" id = "menu" href="#"><i class="fas fa-bars"></i></a>
+                    </nav>
+                </div>
+                <div class = "droppingMenu" id = "droppingMenu">
+                    <nav class="header__nav-link menu__icon">
+                        <a href="#"><i class="fas fa-user"></i></a>
+                    </nav>
+                    <nav class="header__nav-link menu__icon">
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                    </nav>
+                    <nav class="header__nav-link menu__icon">
+                        <a href="#">some text</a>
+                    </nav>
+                    <nav class="header__nav-link menu__icon">
+                        <a href="#">some text</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="nav">
+        <div class="container">
+            <a class = "nav__link" href="#home">home</a id = "">
+            <a class = "nav__link" href="#shop">shop</a>
+            <a class = "nav__link" href="#element">element</a>
+            <a class = "nav__link" href="#pages">pages</a>
+            <a class = "nav__link" href="#portfolio">portfolio</a>
+            <a class = "nav__link" href="#blogs">blogs</a>
+        </div>
+    </div>
+
+    <section id = "home" class = 'intro'>
+        <div class="container">
+            <div class="intro__inner">
+                <div class="intro__wrapper">
+                    <p class = "intro__subtitle">
+                        <span>New</span> ARRIVALS
+                    </p>
+                    <div class="intro__title">
+                        <h1 class = "intro__title">sky planter <sup class = "intro__title-price">$18.00</sup></h1>
+                    </div>
+                    <div>
+                        <a href = "#" class = "intro__link">shop now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="filter">
+        <div class="container">
+            <div class="filter__nav">
+                <div class="filter__nav-link">
+                    <a href="#"><i class="fas fa-bars"></i></a>
+                    <a href="#">all</a>
+                    <a href="#">home</a>
+                    <a href="#">learning</a>
+                    <a href="#">office</a>
+                    <a href="#">outdoor</a>
+                </div>
+                <input class = "header__form-input" placeholder = "search" type="text">
+            </div>
+        </div>
+    </div>
+
+    <div id = "shop" class="products">
+        <div class="container">
+            <div class="products__inner">
+
+                <div class="products__item">
+                    <div class="products__item-header">
+                        <div class="products__sidebar">
+                            <a href="#"><i class="fas fa-bars"></i></a>
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            <a href="#"><i class="fas fa-bars plus"></i></a>
+                        </div>
+                        <div class="products__image products__image--pink">
+                            <div class="products__image-label products__image-label--green">
+                                new
+                            </div>
+                        </div>
+                    </div> <!-- /products__item-header -->
+
+                    <div class="products__item-footer">
+                        <div class="products__item-content">
+                            <p class = "products__item-footer__title">Lava Vtase</p>
+                            <p class = "products__item-footer__price"><s>$65.00</s>  <span>$35.00</span></p>
+                        </div>
+                        <div class="products__item-cart">
+                            <a class = "products__item-cart__link" href = "#">
+                                <i class="fas fa-shopping-cart products__item-cart__cart"></i>
+                                <p class = "products__item-cart__text">add to cart</p>
+                            </a>
+                        </div>
+                    </div><!--/products__item-footer-->
+                </div><!-- /products__item -->
+
+                
+                <div class="products__item">
+                    <div class="products__item-header">
+                        <div class="products__sidebar">
+                            <a href="#"><i class="fas fa-bars"></i></a>
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            <a href="#"><i class="fas fa-bars plus"></i></a>
+                        </div>
+                        <div class="products__image products__image--pink">
+                            <div class="products__image-label products__image-label--pink">
+                                hot
+                            </div>
+                        </div>
+                    </div> <!-- /products__item-header -->
+
+                    <div class="products__item-footer">
+                        <div class="products__item-content">
+                            <p class = "products__item-footer__title">Ceramic Pot</p>
+                            <p class = "products__item-footer__price"><s>$78.00</s>  <span>$45.00</span></p>
+                        </div>
+                        <div class="products__item-cart">
+                            <a class = "products__item-cart__link" href = "#">
+                                <i class="fas fa-shopping-cart products__item-cart__cart"></i>
+                                <p class = "products__item-cart__text">add to cart</p>
+                            </a>
+                        </div>
+                    </div><!--/products__item-footer-->
+                </div><!-- /products__item -->
+
+                
+                <div class="products__item">
+                    <div class="products__item-header">
+                        <div class="products__sidebar">
+                            <a href="#"><i class="fas fa-bars"></i></a>
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            <a href="#"><i class="fas fa-bars plus"></i></a>
+                        </div>
+                        <div class="products__image products__image--pink">
+                            <div class="products__image-label products__image-label--green">
+                                new
+                            </div>
+                        </div>
+                    </div> <!-- /products__item-header -->
+
+                    <div class="products__item-footer">
+                        <div class="products__item-content">
+                            <p class = "products__item-footer__title">Dinnerware Service</p>
+                            <p class = "products__item-footer__price"><s>$89.00</s>  <span>$56.00</span></p>
+                        </div>
+                        <div class="products__item-cart">
+                            <a class = "products__item-cart__link" href = "#">
+                                <i class="fas fa-shopping-cart products__item-cart__cart"></i>
+                                <p class = "products__item-cart__text">add to cart</p>
+                            </a>
+                        </div>
+                    </div><!--/products__item-footer-->
+                </div><!-- /products__item -->
+
+                
+                <div class="products__item">
+                    <div class="products__item-header">
+                        <div class="products__sidebar">
+                            <a href="#"><i class="fas fa-bars"></i></a>
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            <a href="#"><i class="fas fa-bars plus"></i></a>
+                        </div>
+                        <div class="products__image products__image--pink"></div>
+                    </div> <!-- /products__item-header -->
+
+                    <div class="products__item-footer">
+                        <div class="products__item-content">
+                            <p class = "products__item-footer__title">Norm Jarc</p>
+                            <p class = "products__item-footer__price"><s>$65.00</s>  <span>$35.00</span></p>
+                        </div>
+                        <div class="products__item-cart">
+                            <a class = "products__item-cart__link" href = "#">
+                                <i class="fas fa-shopping-cart products__item-cart__cart"></i>
+                                <p class = "products__item-cart__text">add to cart</p>
+                            </a>
+                        </div>
+                    </div><!--/products__item-footer-->
+                </div><!-- /products__item -->
+
+                
+                <div class="products__item">
+                    <div class="products__item-header">
+                        <div class="products__sidebar">
+                            <a href="#"><i class="fas fa-bars"></i></a>
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            <a href="#"><i class="fas fa-bars plus"></i></a>
+                        </div>
+                        <div class="products__image products__image--green">
+                            <div class="products__image-label products__image-label--pink">
+                                hot
+                            </div>
+                        </div>
+                    </div> <!-- /products__item-header -->
+
+                    <div class="products__item-footer">
+                        <div class="products__item-content">
+                            <p class = "products__item-footer__title">Flaoting Boat</p>
+                            <p class = "products__item-footer__price"><s>$78.00</s>  <span>$45.00</span></p>
+                        </div>
+                        <div class="products__item-cart">
+                            <a class = "products__item-cart__link" href = "#">
+                                <i class="fas fa-shopping-cart products__item-cart__cart"></i>
+                                <p class = "products__item-cart__text">add to cart</p>
+                            </a>
+                        </div>
+                    </div><!--/products__item-footer-->
+                </div><!-- /products__item -->
+
+                
+                <div class="products__item">
+                    <div class="products__item-header">
+                        <div class="products__sidebar">
+                            <a href="#"><i class="fas fa-bars"></i></a>
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            <a href="#"><i class="fas fa-bars plus"></i></a>
+                        </div>
+                        <div class="products__image products__image--pink">
+                            <div class="products__image-label products__image-label--green">
+                                new
+                            </div>
+                        </div>
+                    </div> <!-- /products__item-header -->
+
+                    <div class="products__item-footer">
+                        <div class="products__item-content">
+                            <p class = "products__item-footer__title">Ceramic Pot</p>
+                            <p class = "products__item-footer__price"><s>$89.00</s>  <span>$56.00</span></p>
+                        </div>
+                        <div class="products__item-cart">
+                            <a class = "products__item-cart__link" href = "#">
+                                <i class="fas fa-shopping-cart products__item-cart__cart"></i>
+                                <p class = "products__item-cart__text">add to cart</p>
+                            </a>
+                        </div>
+                    </div><!--/products__item-footer-->
+                </div><!-- /products__item -->
+
+            </div><!-- /products__inner -->
+        </div>
+    </div>
+
+
+    <div id = "element" class="featured">
+        <div class="featured__left">
+            <div class="featured__circle">
+                <div class="featured__circle-content">
+                    <s>$65.00</s>   
+                    <h3>$35.00</h3>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="featured__right">
+            <h1 class = "featured__title">Featured</h1>
+            <div class="featured__content">
+                <h5 class = "featured__content-subtitle">Lava Vase</h5>
+                <h3 class = "featured__content-title">Ceramic Planter with Wood Stand</h3>
+                <p class = "featured__content-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean 
+                    ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                <a class = "featured__content-link" href = "#">shop now</a>
+            </div>
+        </div>
+
+    </div>
+
+    <section id = "pages" class = "description">
+        <div class="container__description">
+            <div class="description__inner">
+                <div class="description__item">
+                    <header class="description__header">
+                        <img class = "description__header-car" src="images/description/1.png" alt="">
+                    </header>
+                    <footer class = "description__footer">
+                        <h3>fast delivery</h3>
+                        <p>Same day delivery as soon as possible</p>
+                    </footer>
+                </div>
+
+                <div class="description__item">
+                    <header class="description__header">
+                        <img src="images/description/2.png" alt="">
+                    </header>
+                    <footer class = "description__footer">
+                        <h3>SPECIAL DISCOUNT</h3>
+                        <p>Get attractive offers day by day</p>
+                    </footer>
+                </div>
+
+                <div class="description__item">
+                    <header class="description__header">
+                        <img src="images/description/3.png" alt="">
+                    </header>
+                    <footer class = "description__footer">
+                        <h3>SECURE CHECKOUT</h3>
+                        <p>Fully secured SSL checkout technology</p>
+                    </footer>
+                </div>
+
+                <div class="description__item">
+                    <header class="description__header">
+                        <img src="images/description/4.png" alt="">
+                    </header>
+                    <footer class = "description__footer">
+                        <h3>MONEY RETURNS</h3>
+                        <p>100% Money back guarntee</p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id = "portfolio" class = "footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer_firstCol footer__col">
+                    <div class="footer_logo">
+                        <img src="images/header/logo.png" alt="">
+                    </div>
+                    <div class="footer__content">
+                        <p>Watson Website Builder is a big library of pre-designed web 
+                            elements which help you create website in few minutes.</p>
+                        <a href = "#">Read more  </a><i class="fas fa-angle-double-right"></i>
+                    </div>
+                </div>
+                <div class="footer_secondCol footer__col">
+                    <h4>Useful Links</h4>
+
+                    <nav class="footer__nav">
+                        <div class="footer__nav-item">
+                            <a href = "#"><i class="fas fa-angle-double-right"></i> Our Brands</a>
+                        </div>
+
+                        <div class="footer__nav-item">
+                            <a href = "#"><i class="fas fa-angle-double-right"></i> Gift Vouchers</a>
+                        </div>
+
+                        <div class="footer__nav-item">
+                            <a href = "#"><i class="fas fa-angle-double-right"></i> Special Offers</a>
+                        </div>
+
+                        <div class="footer__nav-item">
+                            <a href = "#"><i class="fas fa-angle-double-right"></i> Latest Jobs</a>
+                        </div>
+
+                        <div class="footer__nav-item">
+                            <a href = "#"><i class="fas fa-angle-double-right"></i> Help Topics</a>
+                        </div>
+
+                        <div class="footer__nav-item">
+                            <a href = "#"><i class="fas fa-angle-double-right"></i> Terms & Conditions                            </a>
+                        </div>
+
+                        <div class="footer__nav-item">
+                            <a href = "#"><i class="fas fa-angle-double-right"></i> Delivery Information</a>
+                        </div>
+
+                        <div class="footer__nav-item">
+                            <a href = "#"><i class="fas fa-angle-double-right"></i> Affiliates</a>
+                        </div>
+
+                        <div class="footer__nav-item">
+                            <a href = "#"><i class="fas fa-angle-double-right"></i> Social Media</a>
+                        </div>
+                    </nav>
+                </div>
+                <div class="footer__thirdCol footer__col">
+                    <div class="footer__thirdCol-header">
+                        <i class="fab fa-instagram"></i><h2>Instagram</h2>
+                    </div>
+
+                    <div class="footer__gallery">
+                        <div class="footer__gallery-item footer__gallery-item--pink">
+
+                        </div>
+
+                        <div class="footer__gallery-item footer__gallery-item--black">
+
+                        </div>
+
+                        <div class="footer__gallery-item footer__gallery-item--pink">
+
+                        </div>
+
+                        <div class="footer__gallery-item footer__gallery-item--black">
+
+                        </div>
+
+                        <div class="footer__gallery-item footer__gallery-item--green">
+
+                        </div>
+
+                        <div class="footer__gallery-item footer__gallery-item--pink">
+
+                        </div>
+
+                        <div class="footer__gallery-item footer__gallery-item--black">
+
+                        </div>
+
+                        <div class="footer__gallery-item footer__gallery-item--green">
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer id = "blogs" class = "lowestFooter">
+        <div class="container">
+            <div class="lowestFooter__inner">
+                <div class="lowestFooter_text">
+                    © 2002-2018 themexpert Inc. All rights reserved.
+                </div>
+                <div class="lowestFooter__paymentOptions">
+                    <img src="images/footer/paymentOptions.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src = "libs/jquery-3.4.1.min.js"></script>
+    <script src = "main.js"></script>
+</body>
+</html>

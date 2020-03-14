@@ -1,0 +1,42 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-size: 1rem;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+/* blocks */
+
+@import '../blocks/_header';
+@import '../blocks/_nav';
+@import '../blocks/intro';
+@import '../blocks/filter';
+@import '../blocks/products';
+@import '../blocks/featured';
+@import '../blocks/description';
+@import '../blocks/footer';
+@import '../blocks/lowestFooter';
+@import '../blocks/burgerMenu';
+
+/* Helpers */
+
+@import '../helpers';
+
+

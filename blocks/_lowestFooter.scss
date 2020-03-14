@@ -1,0 +1,24 @@
+.lowestFooter__inner {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lowestFooter_text {
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #7b7c85;
+    
+}
+
+@media (max-width: 590px) {
+    .lowestFooter__paymentOptions {
+        display: none;
+    }
+
+    .lowestFooter__inner {
+        justify-content: center;
+    }
+}
